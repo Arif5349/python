@@ -1,0 +1,44 @@
+{
+ "Account": { "Username": "XXXXXXXXX",
+              "Password": "XXXXXXXXXXXX"
+},
+
+ "Interface":{ "Base Bet":"0.01",
+               "Max Bet":"off",
+               "Chance":"79",
+               "Random":{"Auto": "on",
+                         "Min" : "5",
+                         "Max" : "14"
+                        },
+
+               "Cl_Seed":{"Auto"       :"off",
+                          "Every_Lose" : "1"
+                         }
+              },
+
+ "BetSet":{ "Bet"   : "L",
+            "H / L" :{"Auto"   : "on",
+                      "On Lose": "4",
+                      "On Win" : "4"
+                     }
+          },
+
+ "Increase" :{ "After Win"  : "1",
+               "After Lose" : "1.04"
+             },
+
+ "Reset"    :{ "If_Win"   : "0",
+               "If_Lose"  : "0"
+             },
+
+ "Stop"    :{ "Balance"  : "50000000",
+              "If_Lose"  : "0",
+              "If_Prof"  : "0"
+             },
+
+ "Withdraw" :{"Auto"   : "off",
+              "Initial": "0",
+              "Trigger": "50000.00000",
+              "Wallet" : "XXXXX"
+             }
+}
